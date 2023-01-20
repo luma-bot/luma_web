@@ -1,0 +1,28 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 300px) {
+  .photobox {
+    height: 200px;
+    width: 100%;
+    background-image: url(img/snow_sm.png);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .photobox {
+    width: 33%;
+    background-image: url(img/snow_md.png);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .photobox {
+    width: 50%;
+    background-image: url(img/snow_lg.png);
+  }
+
+  .custombox{
+    width: 100%;
+  }
+}

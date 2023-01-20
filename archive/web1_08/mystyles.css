@@ -1,0 +1,91 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) {
+  .main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    flex-direction: column;
+  }
+
+  .item {
+    width: 100%;
+    height: 50px;
+  }
+
+  .yellow {
+    background-color: yellow;
+  }
+
+  .blue {
+    background-color: blue;
+  }
+
+  .red {
+    background-color: red;
+  }
+
+  .green {
+    background-color: green;
+  }
+
+  .pink {
+    background-color: pink;
+  }
+
+  .purple {
+    background-color: purple;
+  }
+
+  .backgroundimage {
+    background-image: url(img/image1.jpg);
+  }
+
+  .backgroundimage:hover {
+    background-image: url(img/image1_hover.jpg);
+  }
+
+  .bigdiv {
+    position: relative;
+  }
+
+  .frontphoto {
+    display: block;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .frontphoto:hover {
+    display: none;
+  }
+
+  .backphoto {
+    display: block;
+    z-index: 9;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .main-container {
+    flex-direction: row;
+  }
+
+  .item {
+    height: 100px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

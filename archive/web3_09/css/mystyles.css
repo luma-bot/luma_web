@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.ulcontainer {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 20px;
+}
+
+ul li {
+  border: 1px solid black;
+  padding: 10px;
+  /* all sides the same */
+  padding: 10px 40px;
+  /* topbot leftright */
+  padding: 10px 20px 30px 40px;
+  /* top right bot left */
+}
+
+.container h1 {
+  color: pink;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

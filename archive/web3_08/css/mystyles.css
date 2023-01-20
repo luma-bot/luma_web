@@ -1,0 +1,85 @@
+:root {
+  --brand-color: #fcb040;
+  --image-padding-top: 12px;
+  --button-font: 'Arial', sans-serif;
+  --primary:  --brand-color: #fcb040;
+}
+
+.show-mobile{
+  display: block;
+}
+
+.al-bg-primary{
+  opacity: 1;
+  background-color: var(--brand-color);
+}
+
+.the-child{
+  padding: var(--fav-number);
+  margin: 10px;
+  font-size: 20px;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.primary-color-txt{
+  color: #fcb040;
+}
+
+.primary-color-bg{
+  background-color: #fcb040;
+}
+
+.section1div1, .section2div2{
+  background-color: #fcb040;
+}
+
+.carousel-item{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ci-one{
+  background-image: url();
+}
+
+
+.ci-two{
+  background-image: url();
+}
+
+.carousel-image-test{
+  background-image: url(img/computerscreen.jpg);
+  background-color: aqua;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media 1200px{
+  .show-mobile{
+    display: none;
+  }
+}

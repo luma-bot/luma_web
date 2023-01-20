@@ -1,0 +1,38 @@
+/* CSS Document */
+
+/*
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+*/
+
+*{
+	overflow-x: hidden;
+}
+
+.funny-margins{
+	margin: 10px 0;
+}
+
+.btn-primary{
+	background-color: hotpink;
+	color: black;
+	font-weight: 900;
+}
+
+.btn-primary:hover{
+	background-color: purple;
+	color: white;
+	font-weight: 900;
+}
+
+.funny-link{
+	color: purple !important;
+}
+
+.funny-lineheight{
+	line-height: 500% !important;
+}
+
+.customfont{
+font-family: 'Bebas Neue', cursive;
+}
