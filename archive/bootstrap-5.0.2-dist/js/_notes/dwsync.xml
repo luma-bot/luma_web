@@ -39,4 +39,17 @@
 <file name="bootstrap.min.js" server="anthony-lum.graphicandwebdesign.ca" local="132902853820000000" remote="132924513620000000" Dst="2" />
 <file name="bootstrap.min.js.map" server="anthony-lum.graphicandwebdesign.ca" local="132902853820000000" remote="132924513620000000" Dst="2" />
 <file name="scripts.js" server="anthony-lum.graphicandwebdesign.ca" local="132902853820000000" remote="132924513620000000" Dst="2" />
+<file name="bootstrap.bundle.js" server="anthony-lum.graphicandwebdesign.ca/public_html/luma_web/" local="132902853800000000" remote="133220890180000000" Dst="1" />
+<file name="bootstrap.bundle.js.map" server="anthony-lum.graphicandwebdesign.ca/public_html/luma_web/" local="132902853800000000" remote="133220890180000000" Dst="1" />
+<file name="bootstrap.bundle.min.js" server="anthony-lum.graphicandwebdesign.ca/public_html/luma_web/" local="132902853800000000" remote="133220890180000000" Dst="1" />
+<file name="bootstrap.bundle.min.js.map" server="anthony-lum.graphicandwebdesign.ca/public_html/luma_web/" local="132902853810000000" remote="133220890180000000" Dst="1" />
+<file name="bootstrap.esm.js" server="anthony-lum.graphicandwebdesign.ca/public_html/luma_web/" local="132902853810000000" remote="133220890180000000" Dst="1" />
+<file name="bootstrap.esm.js.map" server="anthony-lum.graphicandwebdesign.ca/public_html/luma_web/" local="132902853810000000" remote="133220890180000000" Dst="1" />
+<file name="bootstrap.esm.min.js" server="anthony-lum.graphicandwebdesign.ca/public_html/luma_web/" local="132902853810000000" remote="133220890180000000" Dst="1" />
+<file name="bootstrap.esm.min.js.map" server="anthony-lum.graphicandwebdesign.ca/public_html/luma_web/" local="132902853810000000" remote="133220890180000000" Dst="1" />
+<file name="bootstrap.js" server="anthony-lum.graphicandwebdesign.ca/public_html/luma_web/" local="132902853820000000" remote="133220890180000000" Dst="1" />
+<file name="bootstrap.js.map" server="anthony-lum.graphicandwebdesign.ca/public_html/luma_web/" local="132902853820000000" remote="133220890180000000" Dst="1" />
+<file name="bootstrap.min.js" server="anthony-lum.graphicandwebdesign.ca/public_html/luma_web/" local="132902853820000000" remote="133220890180000000" Dst="1" />
+<file name="bootstrap.min.js.map" server="anthony-lum.graphicandwebdesign.ca/public_html/luma_web/" local="132902853820000000" remote="133220890180000000" Dst="1" />
+<file name="scripts.js" server="anthony-lum.graphicandwebdesign.ca/public_html/luma_web/" local="132902853820000000" remote="133220890180000000" Dst="1" />
 </dwsync>

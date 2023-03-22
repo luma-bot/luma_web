@@ -1,0 +1,49 @@
+
+
+body {
+}
+/* ------------------------------ */
+/* flexbox */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.flex-column {
+  flex-flow: column wrap;
+}
+
+.flex-item {
+  height: 100px;
+}
+
+.row div {
+  height: 100px;
+}
+
+.flex1 {
+  flex-grow: 1;
+}
+
+.flex2 {
+  flex-grow: 2;
+}
+
+.flex3 {
+  flex-grow: 3;
+}
+
+.flex4 {
+  flex-grow: 4;
+}
+
+.flex5 {
+  flex-grow: 5;
+}

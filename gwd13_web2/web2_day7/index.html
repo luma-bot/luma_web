@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="thisForm" action="javascript:myForm()">
+      <!-- syntax -->
+      <label for="fName">First Name</label>
+      <input type="text" name="fName" id="fName" placeholder="john" required/>
+      <label for="lName">Last Name</label>
+      <input type="text" name="lName" id="lName" placeholder="doe" required/>
+      
+      <button type="submit">Press</button>
+      <!-- type submit activates form action-->
+    </form>
+
+    <script>
+      function myForm() {
+        var fName = document.getElementById("fName").value;
+        var lName = document.getElementById("lName").value;
+        var name = "john", last = "doe", age = "35";
+        alert(fName + " " + lName);
+      }
+    </script>
+  </body>
+</html>

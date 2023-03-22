@@ -1,0 +1,41 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   .background-color {
+      background-color: red;
+   }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   .background-color {
+      background-color: red;
+   }
+
+   .picture1,
+   .picture2,
+   .picture3 {
+      width: 100px;
+      height: 100px;
+   }
+
+   .picture1 {
+      background-image: url(../img/picture1.jpg);
+   }
+
+   .picture2 {
+      background-image: url(../img/picture2.jpg);
+   }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.background{
+   background-color: pink;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -1,0 +1,10 @@
+:root{
+   --logo: url();
+   --favColor: #fcb040;
+}
+
+div{
+    background-image: var(--logo);
+    background-color: var(--favColor);
+}
+

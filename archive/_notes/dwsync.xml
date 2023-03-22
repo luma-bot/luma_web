@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name=".gitattributes" server="sebrina-jones.graphicandwebdesign.ca/public_html/luma/" local="132900387105550825" remote="132902853760000000" Dst="1" />
 <file name="README.md" server="sebrina-jones.graphicandwebdesign.ca/public_html/luma/" local="132900387105540859" remote="132902853820000000" Dst="1" />
-<file name="test.html" server="sebrina-jones.graphicandwebdesign.ca/public_html/luma/" local="132902731631936125" remote="132902853820000000" Dst="1" />
-<file name=".gitattributes" server="sebrina-jones.graphicandwebdesign.ca/public_html/bootstrap/" local="132902853760000000" remote="132902853760000000" Dst="1" />
 <file name="README.md" server="sebrina-jones.graphicandwebdesign.ca/public_html/bootstrap/" local="132902853820000000" remote="132902853820000000" Dst="1" />
-<file name="test.html" server="sebrina-jones.graphicandwebdesign.ca/public_html/bootstrap/" local="132911751612016691" remote="132913945610000000" Dst="1" />
-<file name="luma_project1.zip" server="sebrina-jones.graphicandwebdesign.ca/public_html/bootstrap/" local="132913947980751336" remote="132913957880000000" Dst="1" />
-<file name=".gitattributes" server="anthony-lum.graphicandwebdesign.ca" local="132902853760000000" remote="132924513550000000" Dst="2" />
-<file name="lidia.html" server="anthony-lum.graphicandwebdesign.ca" local="132923835811428781" remote="132924513620000000" Dst="2" />
-<file name="luma_project1.zip" server="anthony-lum.graphicandwebdesign.ca" local="132913947980751336" remote="132924513630000000" Dst="2" />
-<file name="pawn.png" server="anthony-lum.graphicandwebdesign.ca" local="132923834134957777" remote="132924513630000000" Dst="2" />
 <file name="README.md" server="anthony-lum.graphicandwebdesign.ca" local="132902853820000000" remote="132924513630000000" Dst="2" />
-<file name="test.html" server="anthony-lum.graphicandwebdesign.ca" local="132911751612016691" remote="132924513630000000" Dst="2" />
+<file name="README.md" server="anthony-lum.graphicandwebdesign.ca/public_html/luma_web/" local="132902853820000000" remote="133220890220000000" Dst="1" />
+<file name="template.html" server="anthony-lum.graphicandwebdesign.ca/public_html/luma_web/" local="132951317044600951" remote="133220890220000000" Dst="1" />
 </dwsync>
