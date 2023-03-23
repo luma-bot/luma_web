@@ -1,5 +1,27 @@
+:root{
+    --favcolor: #fcb040;
+    --logo: url("../img/logo.png");
+    --primaryFont: 'Comic Sans';
+}
+
+.bg-fav{
+    background-color: var(--favcolor);
+}
+
+.order-6{
+    order: 6;
+}
+
 .test{
     border: 1px solid red;
+}
+
+.logo{
+    background-image: var(--logo);
+}
+
+h1{
+    font-family: var(--primaryFont), Arial, Helvetica, sans-serif;
 }
 
 /* Extra small devices (phones, 600px and down) */
