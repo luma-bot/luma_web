@@ -1,0 +1,1 @@
+// this javascript file is from www..com
