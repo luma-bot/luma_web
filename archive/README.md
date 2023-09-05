@@ -1,2 +1,0 @@
-# luma_web
- GWD

@@ -1,6 +1,0 @@
--header x
--paragraphs x
--images x
--links x
--some STYLES x
--comments x
