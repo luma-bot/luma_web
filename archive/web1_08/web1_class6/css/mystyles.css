@@ -1,0 +1,85 @@
+
+p h1 h2 h3 h4 h5 h6 a{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-container{
+  width: 85%;
+  margin: 0 auto;
+}
+
+section{
+  clear: both;
+}
+
+li{
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+  padding: 20px;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+header{
+  margin-bottom: 50px;
+  height: 100px;
+  border-bottom: 3px black solid;
+}
+
+.heroimage{
+  background-image: url("../img/lights.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+}
+
+.section2{
+  height: 30vh;
+}
+
+.section1img{
+  width: 40%;
+  height: 50%;
+  margin-right: 40px;
+  background-image: url("../img/lights.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.section1text{
+  width: 50%;
+}
+
+.section2{
+  background-image: url("../img/lights.jpg");
+  background-position: center;
+  background-size: cover;
+  color: crimson;
+}
+
+.section2text{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.pwidth{
+  width: 50%;;
+}
+
+footer{
+  clear: both;
+  text-align: center;
+}
+
+
+.photo{
+  width: 60%;
+}

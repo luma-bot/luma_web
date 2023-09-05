@@ -1,0 +1,167 @@
+/* CSS Document */
+/* Index Page CSS & General Below */
+body{
+	margin: 0;
+	background-color: #D2CECE;
+}
+
+.border{
+	border: 1px solid red;
+}
+
+.main-container{
+	background-color: #D2CECE;
+	width: 992px;
+	margin: 0 auto;
+}
+
+.logo{
+	float: left;
+}
+
+.menu{
+	float: right;
+}
+
+.menu-item{
+	display: inline;
+	margin: 0 10px;
+}
+
+.notblue{
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.hero-section, .section3{
+	clear: both;
+}
+
+.hero-section{
+	height: 400px;
+	width: 100%;
+	background-image: url("../img/winter.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat
+}
+
+.hero-section h1{
+	text-align: center;
+	margin-top: 176px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.section3{
+	margin: 50px 0px;
+	height: 250px;
+}
+
+.tree-photo{
+	height: 250px;
+}
+
+.section3-child2{
+	width: 70%;
+	margin-top: 50px;
+
+}
+
+.section3-child1{
+	float: left;
+}
+
+.section3-child2{
+	float: right;
+}
+
+.section3-child1-1{
+	float: right;
+}
+
+.section3-child2-2{
+	float: left;
+}
+
+.section4{
+	clear: both;
+	margin: 50px 0;
+	background-image: url("../img/winter.jpg");
+	height: 100px;
+	padding: 50px;
+}
+
+.clickme{
+	border: 1px solid black;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	border-radius: 25px;
+	margin: 30px 0px;
+}
+
+.section5{
+	margin: 50px 0px;
+	padding: 30px;
+}
+
+.section5-left{
+	float: left;
+	width: 40%;
+}
+
+.section5-right{
+	float: right;
+	width: 40%;
+}
+
+.footer{
+	clear: both;
+	height: 100px;
+	text-align: center;
+	padding: 50px;
+}
+
+.socialmediaicons img{
+	display: inline;
+	padding: 10px;
+}
+
+
+.section4-image{
+    width: 100%;
+    height: 250px;
+    clear: both;
+	background-image: url("../img/winter.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 10px 20px;
+    
+}
+/* Index Page CSS & General Above */
+/* Test Page CSS Below */
+
+div{
+    padding-top: 30px;
+}
+
+div ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+
+div ul{
+    list-style: none;
+}
+
+div ul li{
+    display: inline;
+    margin: 0px 20px;
+}
+

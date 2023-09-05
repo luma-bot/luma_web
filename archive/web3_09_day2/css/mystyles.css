@@ -1,0 +1,71 @@
+.blackborder {
+  border: 1px solid black;
+}
+
+.bg-primary {
+  background-color: #fcb040 !important;
+}
+
+.customheight {
+  height: 150px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pink {
+  background-color: deeppink;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.btn-primary{
+  background-color: #fcb040;
+}
+
+.anthonyellow{
+  background-color: #fcb040;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body{
+    background-color: white;
+  }
+
+  .boxheight{
+    height: 100px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .boxheight{
+    height: 200px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body{
+    background-color: grey;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}

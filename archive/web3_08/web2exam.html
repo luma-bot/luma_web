@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <style>
+    .color {
+      background-color: red;
+    }
+
+    .yellow {
+      background-color: yellow;
+    }
+
+    .blue {
+      background-color: blue;
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .green {
+      background-color: green;
+    }
+
+    .pink {
+      background-color: pink;
+    }
+
+    .purple {
+      background-color: purple;
+    }
+
+    .border {
+      border: 1px solid red;
+    }
+
+    .container {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    .item {
+      height: 100px;
+    }
+
+    .twelve {
+      width: 100%;
+    }
+
+    .six {
+      width: 50%;
+    }
+
+    .twenty {
+      width: 20%;
+    }
+
+    .twentyfive {
+      width: 25%;
+    }
+
+    .hundred{
+      width: 100%;
+    }
+
+    .fifty{
+      width: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="item twelve red"></div>
+    <div class="item six yellow">2</div>
+    <div class="item six blue">3</div>
+  </div>
+
+  <div class="container">
+    <div class="col twenty">
+      <div>height 120</div>
+    </div>
+    <div class="col twenty">
+      <div>height 60</div>
+      <div>height 60</div>
+    </div>
+    <div class="col twenty">
+      <div>height 40</div>
+      <div>height 40</div>
+      <div>height 40</div>
+    </div>
+    <div class="col twenty">
+      <div>height 60</div>
+      <div>height 60</div>
+    </div>
+    <div class="col twenty">
+      <div>height 60</div>
+      <div>height 60</div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="item twentyfive"></div>
+    <div class="item twentyfive"></div>
+    <div class="item twentyfive"></div>
+    <div class="item twentyfive"></div>
+    <div class="item twentyfive"></div>
+    <div class="item twentyfive"></div>
+    <div class="item twentyfive"></div>
+    <div class="item twentyfive"></div>
+    <div class="item twentyfive"></div>
+    <div class="item twentyfive"></div>
+    <div class="item twentyfive"></div>
+    <div class="item twentyfive"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="col fifty">
+      <div class="item hundred 66"></div>
+      <div class="item hundred 33"></div>
+    </div>
+    <div class="col fifty">
+      <div class="item hundred 33"></div>
+      <div class="item hundred 33"></div>
+      <div class="item fifty 33"></div>
+      <div class="item fifty 33"></div>
+    </div>
+  </div>
+</body>
+
+</html>
