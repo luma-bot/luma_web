@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+body{
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    color: inherit;
+}
+
+main{
+    width: 90%;
+}

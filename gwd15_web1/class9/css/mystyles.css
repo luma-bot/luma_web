@@ -1,0 +1,16 @@
+.test{
+    clear:both;
+}
+
+.test ul li{
+    display: inline;
+}
+
+ul li img{
+    width: 50px;
+}
+
+.frogone{
+    width: 100px;
+    height: 100px;
+}

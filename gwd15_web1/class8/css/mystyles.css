@@ -1,0 +1,86 @@
+/* CSS Document */
+
+body{
+    width: 100%;
+}
+
+#textoverphoto{
+    width: 85%;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    border: 1px solid red;
+    
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 30px;
+    color: black;
+    
+    background-color: red;
+    background-position: center;
+    background-size: cover;
+}
+
+.parent{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.rectangles{
+    width: 50%;
+    float: left;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
+
+div > p{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+section{
+    padding-top: 160px;
+    clear: both;
+}
+
+.labels{
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 20px;
+    text-align: center;
+}
+
+.inputs{
+    padding: 10px;
+    text-align: center;
+    border: green 2px solid;
+    border-radius: 10px;
+}
+
+.pictureinside{
+    width: 100%;
+    object-fit: cover;
+}
+
+nav a:active{
+    color: red;
+}
+
+nav a:hover{
+    color: green;
+}
