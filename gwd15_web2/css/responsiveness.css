@@ -1,0 +1,152 @@
+/* CSS Reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* General Styles */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .mobile-nav {
+        display: none;
+        background-color: red;
+    }
+
+    .desktop-nav {
+        display: none;
+        background-color: blue;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .menu-link {
+        float: left;
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    .flex-container {
+        display: flex;
+    }
+
+    .pt1 {
+        order: 1;
+    }
+
+    .pt2 {
+        order: 2;
+    }
+
+    .pg {
+        order: 3;
+    }
+
+    
+    .pt2-img{
+        order: 1;
+    }
+
+    .pt2-p{
+        order: 2;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .mobile-nav {
+        display: block;
+        background-color: red;
+    }
+
+    .desktop-nav {
+        display: none;
+        background-color: blue;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .menu-link {
+        float: left;
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    .pt1 {
+        order: 1;
+    }
+
+    .pt2 {
+        order: 2;
+    }
+
+    .pg {
+        order: 3;
+    }
+
+    
+    .pt2-img{
+        order: 1;
+    }
+
+    .pt2-p{
+        order: 2;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .mobile-nav {
+        display: none;
+        background-color: red;
+    }
+
+    .desktop-nav {
+        display: none;
+        background-color: blue;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .menu-link {
+        float: left;
+        width: 33.33%;
+    }
+
+    .pt1{
+        order: 1;
+    }
+    
+    .pt2{
+        order: 3;
+    }
+
+    .pg{
+        order: 2;
+    }
+
+    .pt2-img{
+        order: 2;
+    }
+
+    .pt2-p{
+        order: 1;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

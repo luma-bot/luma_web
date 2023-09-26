@@ -1,0 +1,65 @@
+
+#hero {
+  background-image: url("../img/herotaco.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.herocenterpiece {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.herocenterpiece h1 {
+  font-size: 64px;
+}
+
+.herocenterpiece div {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.herocenterpiece div a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  float: left;
+  padding: 10px;
+  margin: 0 5px;
+  font-size: 10px;
+  text-align: center;
+  width: 26.5%;
+}
+
+#wannawork{
+    background-color:#ca3e27;
+    padding: 100px;
+    text-transform: uppercase;
+}
+
+#wannawork h2{
+    font-size: 52px;
+}
+
+#wannawork article{
+        text-align: center;
+        color: white;
+}
+
+#wannawork article a{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
+    width: 20%;
+}

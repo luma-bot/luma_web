@@ -1,0 +1,119 @@
+/* CSS Reset */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* General Styles */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    main{
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .orange{
+        background-color: orange;
+        border: black 1px solid;
+        height: 100px;
+
+        width: 100%;
+        float: left;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    main{
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .orange{
+        background-color: orange;
+        border: black 1px solid;
+        height: 100px;
+
+        width: 100%;
+        float: left;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .orange{
+        width: 33%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .twofive{
+        width: 25%;
+    }
+
+    .fiveoh{
+        width:50%;
+    }
+
+    .sevenfive{
+        width: 75%;
+    }
+
+    .onehunna{
+        width: 100%;
+    }
+
+
+
+
+
+    .floatygallery{
+        position: relative;
+        height: 550px;
+    }
+
+    .picture1, .picture2, .picture3{
+        position: absolute;
+    }
+
+    .picture1{
+        width: 100px;
+        z-index: 3;
+        top: 10px;
+        left: 10px;
+    }
+
+    .picture2{
+        width: 100px;
+        z-index: 2;
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .picture3{
+        width: 100px;
+        z-index: 1;
+        right: 10px;
+        bottom: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

@@ -1,0 +1,15 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+everything you type in mobile, is multipled twice into both so that they are the same
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+everything you type in mobile, is multipled twice into both so that they are the same
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+different than the mobile version
+}

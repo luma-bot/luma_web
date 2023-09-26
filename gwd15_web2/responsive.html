@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="css/responsiveness.css" />
+    </head>
+    <body>
+        <nav class="mobile-nav">
+            <a href="">mobile</a>
+            <a href="">mobile</a>
+            <a href="">mobile</a>
+        </nav>
+
+        <nav class="desktop-nav">
+            <a href="">desktop</a>
+            <a href="">desktop</a>
+            <a href="">desktop</a>
+        </nav>
+
+        <nav>
+            <a href="">Logo</a>
+
+            <div id="ninja_html">
+                <a href="">About</a>
+                <a href="">Contact</a>
+                <a href="">Menu</a>
+            </div>
+
+            <a href="javascript:void(0);" onclick="ninjatime()">button</a>
+        </nav>
+
+        <p id="multicolor" onclick="colortime()">Some text and stuff</p>
+
+        <a class="hamburger"> line line line </a>
+        <nav>
+            <a href="" class="menu-link">menu1</a>
+            <a href="" class="menu-link">menu2</a>
+            <a href="" class="menu-link">menu3</a>
+        </nav>
+
+        <script>
+            function ninjatime() {
+                var ninja_js = document.getElementById("ninja_html");
+                if (ninja_js.style.display === "block") {
+                    ninja_js.style.display = "none";
+                } else {
+                    ninja_js.style.display = "block";
+                }
+            }
+
+            function colortime() {
+                var c = document.getElementById("multicolor");
+                if (c.style.color === "black") {
+                    c.style.color = "aqua";
+                } else {
+                    c.style.color = "black";
+                }
+            }
+        </script>
+
+        <div class="flex-container">
+            <section class="flex-container flex-item pt1">
+                <img src="" alt="" />
+                <p></p>
+            </section>
+            <section class="flex-container flex-item pg">photo gallery</section>
+            <section class="flex-container flex-item pt2">
+                <img class="pt2-img" src="" alt="" />
+                <p class="pt2-p"></p>
+            </section>
+        </div>
+    </body>
+</html>
