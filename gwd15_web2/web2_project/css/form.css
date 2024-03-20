@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:tan;
+}
+
+main {
+    width: 85%;
+    margin: 50px auto;
+}
+
+.formdiv {
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+label,
+input {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.checkboxstuff label,
+.checkboxstuff input {
+    display: inline-block;
+    text-align: center;
+}
+
+label {
+    margin: 10px 0px 5px 0px;
+}
+
+input {
+    border-radius: 10px;
+    padding: 3px;
+}
+
+a {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+a:hover{
+    background-color: grey;
+    border: 1px solid grey;
+    color: white;
+}
+
+.checkboxstuff{
+    margin: 20px auto;
+}
+
+.checkboxstuff div{
+    margin: 0 auto;
+}
+/* On mouse-over, add a grey background color */
+input:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+ input:checked ~ .checkmark {
+  background-color: pink;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: red;
+}

@@ -1,0 +1,75 @@
+/* Main Styles */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial, sans-serif;
+}
+
+header, nav{
+    width: 100%;
+}
+
+main{
+    width: 992px;
+    margin: 0 auto;
+}
+
+#section1{
+    position: relative;
+    height: 500px;
+}
+
+.w50{
+    width: 50%;
+}
+
+.purple_div{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#sideways{
+    position: absolute;
+    bottom: 150px;
+    right: -100px;
+    transform: rotate(90deg);
+    border: 1px solid red;
+    z-index: 1;
+}
+
+#section2{
+    position: relative;
+    height: 500px;
+    border: 2px solid black;
+    background-image: url("../img/situp.jpg");
+    background-size: cover;
+}
+
+#section2_text{
+    position: absolute;
+    text-transform: uppercase;
+    font-style: italic;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#section2_popup{
+    position: absolute;
+    bottom: -60px;
+    right: 60px;
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    object-position: top;
+    border: 2px solid white;
+}

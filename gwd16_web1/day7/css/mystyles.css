@@ -1,0 +1,14 @@
+/* CSS Document */
+
+body{
+    width: 100%;
+    background-color: #F7ED99;
+}
+
+main{
+    width: 90%;
+    height: 500px;
+    background-color:orange;
+    margin: 0 auto;
+    padding: 20px;
+}

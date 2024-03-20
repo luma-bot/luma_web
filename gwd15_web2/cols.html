@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="css/mediaqandcols.css" />
+    </head>
+    <body>
+        <main>
+            <nav class="flex-container">
+                <!-- Logo -->
+                <div class="nav-logo flex-container">
+                    <a href="">Logo</a>
+                </div>
+
+                <div class="nav-icon flex-container">
+                    <a href="javascript:void(0);" onclick="menuIcon()">Hamburger Button</a>
+                </div>
+
+                <!-- Menu Items -->
+                <div id="menu-items" class="nav-items flex-container">
+                    <a href="">Menu</a>
+                    <a href="">Rewards</a>
+                    <a href="">Giftcard</a>
+                    <a href="">Find A Store</a>
+                </div>
+            </nav>
+
+            <script>
+                /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+                function menuIcon() {
+                    var x = document.getElementById("menu-items");
+                    if (x.style.display === "flex") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "flex";
+                    }
+
+                    
+                }
+            </script>
+            <!-- --- -->
+
+            <section class="flex-container nav-after">
+                <!-- article 1 -->
+                <div class="flex-item col-12 flex-container">
+                    <div class="col-12 col-s-12 col-m-6">
+                        <img src="img/coffee.jpg" alt="" />
+                    </div>
+                    <div
+                        class="col-12 col-s-12 col-m-6 flex-container article-text"
+                    >
+                        <h3>Words</h3>
+                        <p>Lorem ipsum dolor sit</p>
+                        <a href="">Button</a>
+                    </div>
+                </div>
+
+                <!-- article 2 -->
+                <div class="flex-item col-12 flex-container">
+                    <div class="col-12 col-s-12 col-m-6 order2">
+                        <img src="img/coffee.jpg" alt="" />
+                    </div>
+                    <div
+                        class="col-12 col-s-12 col-m-6 flex-container article-text order1"
+                    >
+                        <h3>Words</h3>
+                        <p>Lorem ipsum dolor sit</p>
+                        <a href="">Button</a>
+                    </div>
+                </div>
+
+                <!-- article 3 -->
+                <div class="flex-item col-12 flex-container">
+                    <div class="col-12 col-s-12 col-m-6">
+                        <img src="img/coffee.jpg" alt="" />
+                    </div>
+                    <div
+                        class="col-12 col-s-12 col-m-6 flex-container article-text"
+                    >
+                        <h3>Words</h3>
+                        <p>Lorem ipsum dolor sit</p>
+                        <a href="">Button</a>
+                    </div>
+                </div>
+
+                <!-- article 4 -->
+                <div class="flex-item col-12 flex-container">
+                    <div class="col-12 col-s-12 col-m-6 order2">
+                        <img src="img/coffee.jpg" alt="" />
+                    </div>
+                    <div
+                        class="col-12 col-s-12 col-m-6 flex-container article-text order1"
+                    >
+                        <h3>Words</h3>
+                        <p>Lorem ipsum dolor sit</p>
+                        <a href="">Button</a>
+                    </div>
+                </div>
+
+                <!-- article 5 -->
+                <div class="flex-item col-12 flex-container">
+                    <div class="col-12 col-s-12 col-m-6">
+                        <img src="img/coffee.jpg" alt="" />
+                    </div>
+                    <div
+                        class="col-12 col-s-12 col-m-6 flex-container article-text"
+                    >
+                        <h3>Words</h3>
+                        <p>Lorem ipsum dolor sit</p>
+                        <a href="">Button</a>
+                    </div>
+                </div>
+
+                <!-- article 6 -->
+                <div class="flex-item col-12 flex-container">
+                    <div class="col-12 col-s-12 col-m-6 order2">
+                        <img src="img/coffee.jpg" alt="" />
+                    </div>
+                    <div
+                        class="col-12 col-s-12 col-m-6 flex-container article-text order1"
+                    >
+                        <h3>Words</h3>
+                        <p>Lorem ipsum dolor sit</p>
+                        <a href="">Button</a>
+                    </div>
+                </div>
+
+                <!-- article 7 -->
+                <div class="flex-item col-12 flex-container">
+                    <div class="col-12 col-s-12 col-m-6">
+                        <img src="img/coffee.jpg" alt="" />
+                    </div>
+                    <div
+                        class="col-12 col-s-12 col-m-6 flex-container article-text"
+                    >
+                        <h3>Words</h3>
+                        <p>Lorem ipsum dolor sit</p>
+                        <a href="">Button</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

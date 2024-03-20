@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/gabrielle.css">
+        <title>Document</title>
+
+        <style>
+* {
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+}
+
+nav.topnav {
+    display: flex;
+}
+
+.list {
+    justify-content: flex-end;
+    position: relative;
+}
+
+nav ul {
+    width: 20%;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    right: 0;
+}
+
+.flex-container {
+    display: flex;
+    width: 50%;
+}
+        </style>
+    </head>
+    <body>
+        <main>
+            <nav class="topnav">
+                <div class="flex-container">  
+                    <div>photo</div>
+                </div>
+                <div class="flex-container list">  
+                    <div>photo</div>
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                    </ul>
+                </div>
+            </nav>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+:root { 
+--primaryColor: #fcb040;
+--secondaryColor: dodgerblue;
+--headingText: arial, sans-serif;
+--bodyText: Montserrat, serif;
+--spacing: 10px;
+}
+
+main{
+    height: 100px;
+}
+
+div h1{
+    font-family: var(--headingText);
+    color: var(--primaryColor);
+}
+
+div p{
+    font-family: var(--bodyText);
+    color: var(--secondaryColor);
+}
+
+a{
+    font-family: var(--bodyText);
+    border: 1px solid black;
+    padding: var(--spacing);
+}
+

@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    border: 1px solid red;
+   cursor:url("../img/coffee.svg"), auto;
+}
+
+article{
+    width: 20%; /* 5 column layout, 100% divided by 5 is 20% width */
+    float: left;
+}
+
+.box1, .box2{
+    width: 100%; 
+    float: left;
+}
+
+.box1{
+    height: 200px;
+}
+
+.box2{
+    height: 400px;
+}

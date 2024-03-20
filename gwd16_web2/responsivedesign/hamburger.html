@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/hamburger.css">
+    <style>
+
+        /* css comments */
+    </style>
+</head>
+<body>
+    <main>
+        <nav id="mobile_menu">
+            <img id="hamburger" onclick="menu()" width="20" height="20" src="https://img.icons8.com/ios/50/menu--v7.png" alt="menu--v7"/>
+            <ul id="menu_links">
+                <li><a class="active" href="page.html">Home</a></li>
+                <li><a href="page.html">About</a></li>
+                <li><a href="page.html">Services</a></li>
+                <li><a href="page.html">Contact</a></li>
+            </ul>
+        </nav>
+    </main>
+<!-- html comment -->
+
+        <script>
+        function menu()
+        {
+            var x = document.getElementById("menu_links");
+            if (x.style.display === "none") { // if in the default state of closed
+                x.style.display = "flex"; // transform to state 2 or open state
+            }
+            else { // but if it is in open state
+                x.style.display = "none"; // go to default state close
+            }
+        }
+    </script>
+</body>
+</html>

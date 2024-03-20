@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box; /* includes the border into the width calculation */
+    font-family: sans-serif;
+}
+
+main{
+    width: 992px;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: grey;
+    padding: 20px;
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    color: white;
+}
+
+nav ul li a{
+    background-color: grey;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.active{
+    background-color: #fcb040;
+}
+
+.title{
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.hero{
+    width: 100%;
+    height: 400px;
+    background-color: #03334e;
+    position: relative;
+}
+
+.whitebox{
+    width: 40%;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: white;
+    margin: 0 auto; /* center in the middle of hero */
+    text-align: center;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%); /* Transform origin point*/
+}
+
+.whitebox a{
+    display: inline-block;
+    background-color: #8fd269; /* green button */
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.threecol{
+    width: 100%;
+}
+
+.box{
+    width: 33.33%; /* this is for the layout container */
+    float: left;
+}
+
+.content{
+    width: 75%;
+    margin: 0 auto; /* center in the middle of 33.33% */
+    text-align: center; /* centers both text and photos */
+    padding: 20px; /* add spacing on the inside content container to avoid messing up the layout */
+}
+
+.content img{
+    width: 200px; /* match width and height to make square */
+    height: 200px;
+    border-radius: 50%; /* if w and h are equal, 50% will crop into perfect circle, otherwise elipse */
+    object-fit: cover;
+    object-position: top left;
+}

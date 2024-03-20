@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .box{
+        border: 1px solid red;
+        float: left;
+        width: 100%;
+        height: 100px;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+    .box{
+        border: 1px solid red;
+        float: left;
+        width: 100%; /* controls the colums, this creates a 1x12 layout*/
+        height: 100px;
+    } 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+    .box{
+       width: 33.33%; /* This overrides the 1x12, turns it into a 3x4 column layout, the rest gets carried down */
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+    .w25{
+        width: 25%;
+    }
+    
+    .w33{
+        width: 33.33%;
+    }
+    
+    .w50{
+        width: 50%;
+    }
+    
+    .w66{
+        width: 66.66%;
+    }
+    
+    .w75{
+        width: 75%;
+    }
+    
+    .w100{
+        width: 100%;
+    }
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+    
+}

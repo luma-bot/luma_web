@@ -1,0 +1,84 @@
+/* CSS Reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* General Styles */
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+section div {
+    border: 1px solid red;
+}
+
+
+.col-1 {
+    height: 8.33%;
+}
+.col-2 {
+    height: 16.66%;
+}
+.col-3 {
+    height: 25%;
+}
+.col-4 {
+    height: 33.33%;
+}
+.col-5 {
+    height: 41.66%;
+}
+.col-6 {
+    height: 50%;
+}
+.col-7 {
+    height: 58.33%;
+}
+.col-8 {
+    height: 66.66%;
+}
+.col-9 {
+    height: 75%;
+}
+.col-10 {
+    height: 83.33%;
+}
+.col-11 {
+    height: 91.66%;
+}
+.col-12 {
+    height: 100%;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

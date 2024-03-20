@@ -1,0 +1,72 @@
+.borderred{
+    border: 1px solid red;
+}
+
+.ta-primary{
+    color: #fcb040;
+}
+
+.ta-secondary{
+    color: blue;
+}
+
+.bg-fcb{
+    background-color: #fcb040;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div{
+    background-image: url("");
+}
+
+.btn-anthony{
+    background-color: pink;
+    color: white;
+}
+
+/* new section */
+
+.bg-anthony{
+    background-color: #fcb040;
+}
+
+.anthonyheight{
+    height: 100px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+    .customclass-hideme{
+        display: none;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* Extra extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+
+}

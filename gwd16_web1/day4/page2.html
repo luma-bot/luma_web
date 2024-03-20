@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<style>
+
+			body{
+				width: 992px;
+			}
+
+			#maincontainer{
+				width: 100%;
+				margin: 0 auto;
+			}
+
+			.background{
+				background-color: salmon;
+				background-image: url("img/cardio.jpg");
+				background-size: cover;
+				background-position: center;
+				width: 100%;
+				height: 400px;
+				margin: 0 auto;
+			}
+
+			.magic{
+				position: relative;
+				opacity: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(36, 36, 36, 0.8);
+				z-index: 1;
+			}
+
+			.magic:hover{
+				opacity: 1;
+			}
+
+			.magic p{
+				position: absolute;
+				top: 40%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				color: white;
+				font-size: 50px;
+				font-family: Impact;
+			}
+		</style>
+	</head>
+
+	<body>
+	<div id="maincontainer">
+		<div class="background">
+			<div class="magic">
+				<p>Cardio</p>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

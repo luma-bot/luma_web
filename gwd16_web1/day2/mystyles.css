@@ -1,0 +1,62 @@
+.box{
+    box-sizing: border-box;
+    border: 1px solid red;
+    width: 33%;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+#four{
+    width: 50%;
+}
+
+#sentence{
+    color: green;
+    font-size: 50px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{   
+    display: inline-block;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.picturebox{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.coffee{
+    width: 100%;
+}
+
+.background{
+    background-image: url("img/coffee.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 33%;
+    float: left;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+}
+
+.background p{
+    padding: 10px;
+    margin-top: 80px;
+}

@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: darkgrey;
+    font-family: arial;
+}
+
+main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+article{
+    width: 33%;
+    float: left;
+    padding: 10px;
+}
+
+.card{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.text_box{
+    padding: 20px;
+}
+
+.card img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+img{
+    width: 100%;
+}
+
+.country{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.city{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.location_text{
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+a div{
+    background-color: red;
+    padding: 10px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+}
+
+.w25, .w50{
+    border: 1px solid red;
+    float: left;
+    height: 200px;
+}
+
+.w25{
+    width: 25%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.form_container{
+    width: 100%;
+}
+
+.form_container form{
+    margin: 0 auto;
+}
+
+.form_container p{
+    text-align: center;
+}
+
+form input, form button{
+    display: inline-block;
+}
+
+form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.social_media{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.social_media img{
+    width: 19%;
+}

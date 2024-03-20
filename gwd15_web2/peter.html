@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <style>
+            .cards {
+                display: none;
+                height: 500px;
+            }
+
+            #yoga {
+                background-color: red;
+            }
+
+            #power {
+                background-color: orange;
+            }
+
+            #cross {
+                background-color: blue;
+            }
+
+            #trainer {
+                background-color: pink;
+            }
+
+            @media only screen and (min-width: 992px) {
+                .desktop-hide {
+                    display: none;
+                }
+
+                .cards{
+                    display: block;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <ul class="desktop-hide">
+                <li>
+                    <a href="javascript:void(0)" onclick="myYoga()">Yoga</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="myPower()">Power</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="myCross()">Cross</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="myTrainer()"
+                        >Personal Trainer</a
+                    >
+                </li>
+            </ul>
+
+            <script>
+                function myYoga() {
+                    var y = document.getElementById("yoga");
+                    var p = document.getElementById("power");
+                    var c = document.getElementById("cross");
+                    var t = document.getElementById("trainer");
+
+                    if (y.style.display === "none") {
+                        y.style.display = "block";
+                        p.style.display = "none";
+                        c.style.display = "none";
+                        t.style.display = "none";
+                    } else {
+                        y.style.display = "none";
+                    }
+                }
+
+                function myPower() {
+                    var y = document.getElementById("yoga");
+                    var p = document.getElementById("power");
+                    var c = document.getElementById("cross");
+                    var t = document.getElementById("trainer");
+
+                    if (p.style.display === "none") {
+                        p.style.display = "block";
+                        y.style.display = "none";
+                        c.style.display = "none";
+                        t.style.display = "none";
+                    } else {
+                        p.style.display = "none";
+                    }
+                }
+
+                function myCross() {
+                    var y = document.getElementById("yoga");
+                    var p = document.getElementById("power");
+                    var c = document.getElementById("cross");
+                    var t = document.getElementById("trainer");
+
+                    if (c.style.display === "none") {
+                        c.style.display = "block";
+                        y.style.display = "none";
+                        p.style.display = "none";
+                        t.style.display = "none";
+                    } else {
+                        c.style.display = "none";
+                    }
+                }
+
+                function myTrainer() {
+                    var y = document.getElementById("yoga");
+                    var p = document.getElementById("power");
+                    var c = document.getElementById("cross");
+                    var t = document.getElementById("trainer");
+
+                    if (t.style.display === "none") {
+                        t.style.display = "block";
+                        y.style.display = "none";
+                        c.style.display = "none";
+                        p.style.display = "none";
+                    } else {
+                        t.style.display = "none";
+                    }
+                }
+            </script>
+
+            <section class="cards" id="yoga">
+                THIS IS THE YOGA SECTION
+            </section>
+            <section class="cards" id="power">
+                THIS IS THE POWER SECTION
+            </section>
+            <section class="cards" id="cross">
+                THIS IS THE CROSS SECTION
+            </section>
+            <section class="cards" id="trainer">
+                THIS IS THE PERSONAL SECTION
+            </section>
+        </main>
+    </body>
+</html>
